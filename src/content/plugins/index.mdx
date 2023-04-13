@@ -12,6 +12,9 @@ contributors:
   - EugeneHlushko
   - snitin315
   - chenxsan
+translators:
+  - hexiaokang
+  - jacob-lcs
 ---
 
 Webpack 拥有丰富的插件接口。webpack 自身的大部分功能都使用这些插件接口。这使得 webpack 很**灵活**。
@@ -28,11 +31,11 @@ Webpack 拥有丰富的插件接口。webpack 自身的大部分功能都使用�
 | [`EnvironmentPlugin`](/plugins/environment-plugin)                              | 在 `process.env` 键上使用 [`DefinePlugin`](/plugins/define-plugin) 的简写方式 |
 | [`EslintWebpackPlugin`](/plugins/eslint-webpack-plugin)                         | webpack 的 ESLint 插件                                                     |
 | [`HotModuleReplacementPlugin`](/plugins/hot-module-replacement-plugin)          | 启用热更新 (HMR)                                                           |
-| [`HtmlWebpackPlugin`](/plugins/html-webpack-plugin)                             | 快速创建html文件来服务 bundles                                               |
+| [`HtmlWebpackPlugin`](/plugins/html-webpack-plugin)                             | 快速创建 HTML 文件来服务 bundles                                               |
 | [`IgnorePlugin`](/plugins/ignore-plugin)                                        | 从 bundles 包中移除某些模块                                                 |
 | [`LimitChunkCountPlugin`](/plugins/limit-chunk-count-plugin)                    | 设置 chunk 的最小/最大限制，以便更好的控制 chunk                               |
 | [`MinChunkSizePlugin`](/plugins/min-chunk-size-plugin)                          | 确保 chunk 大小在指定限制之上                                               |
-| [`MiniCssExtractPlugin`](/plugins/mini-css-extract-plugin)                      | 为每一个包含了 css 的js文件创建一个css文件                                     |
+| [`MiniCssExtractPlugin`](/plugins/mini-css-extract-plugin)                      | 为每一个包含了 CSS 的 JS 文件创建一个 CSS 文件                                     |
 | [`NoEmitOnErrorsPlugin`](/configuration/optimization/#optimizationemitonerrors) | 出现编译错误时，跳过输出阶段                                                 |
 | [`NormalModuleReplacementPlugin`](/plugins/normal-module-replacement-plugin)    | 替换与正则表达式匹配的资源                                                   |
 | [`NpmInstallWebpackPlugin`](/plugins/install-webpack-plugin)                    | 开发时自动安装缺少的依赖                                                     |
